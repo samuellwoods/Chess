@@ -1,10 +1,11 @@
 
 
 public class Queen extends ChessPiece{
-    String name;
-    boolean alive;
+    public Queen(int row, int column, String color){
+        super("Qu",true, row, column, color);
+    }
 
-    public Queen(){
-        super("Queen",true);
+    public void move(){
+        
     }
 }

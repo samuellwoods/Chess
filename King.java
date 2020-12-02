@@ -1,10 +1,12 @@
 
 
 public class King extends ChessPiece{
-    String name;
-    boolean alive;
 
-    public King(){
-        super("King",true);
+    public King(int row, int column, String color){
+        super("Ki",true, row, column, color);
+    }
+
+    public void move(){
+        
     }
 }

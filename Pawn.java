@@ -1,10 +1,20 @@
 
 
 public class Pawn extends ChessPiece{
-    String name;
-    boolean alive;
+    public Pawn(int row, int column, String color){
+        super("Pa",true, row, column, color);
+    }
 
-    public Pawn(){
-        super("Pawn",true);
+    public boolean canMove(int row, int column, ChessPiece[][] array){
+        if(column != this.getColumn()){
+            return false;
+        }
+        if((row-this.getRow()) == 1){
+            return true;
+        }
+        if((row-this.getRow()) > 1){
+            return false;
+        }
+        return false;
     }
 }

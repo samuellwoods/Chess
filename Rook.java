@@ -1,10 +1,11 @@
 
 
 public class Rook extends ChessPiece{
-    String name;
-    boolean alive;
+    public Rook(int row, int column, String color){
+        super("Ro",true, row, column, color);
+    }
 
-    public Rook(){
-        super("Rook",true);
+    public void move(){
+        
     }
 }

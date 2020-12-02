@@ -12,6 +12,9 @@ public class ChessPiece {
         this.setColumn(column);
         this.setColor(color);
     }
+    public boolean canMove(int row, int column, ChessPiece[][] array){
+        return true;
+    }
 
     public void move() {
         this.move();
