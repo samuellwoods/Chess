@@ -1,4 +1,4 @@
-# ChessEngine
+# Chess
 Author: Samuel Woods
 Date: 12/2/2020
 
